@@ -4,6 +4,6 @@ print(age)
 age = age + 1
 print("at next year")
 print(age)
-age = age + 1
+age += 1
 print("at 2years after")
 print(age)
