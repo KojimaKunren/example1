@@ -1,4 +1,2 @@
-name = input("Pls write your name.")
-print(f"You are {name}.")
-boy = name
-print(boy)
+h, w = int(input("height(m)? >>")) / 100, float(input("weight(kg)?>>"))
+print(f"BMI is {w / h **2:.2f}")
