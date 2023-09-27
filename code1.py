@@ -1,9 +1,4 @@
-age = 100
-print("Alice's age is ")
-print(age)
-age = age + 1
-print("at next year")
-print(age)
-age += 1
-print("at 2years after")
-print(age)
+name = input("Pls write your name.")
+print(f"You are {name}.")
+boy = name
+print(boy)
